@@ -34,6 +34,7 @@ To run the application locally, follow these steps:
 Clone the repository:
 git clone <your-repo-url>
 cd <your-project-directory>
+
 Install the dependencies:
 npm install
 Start the development server:
@@ -46,8 +47,13 @@ Folder Structure
 The project is structured as follows:
 
 public/: Contains the HTML template and other static assets.
+
 src/: Contains the React application's source code.
+
 src/components/:Contains the different pages of the application.
+
 context/: This provides global state for user authentication.  .
+
 App.js: The root component of the application.
+
 index.js: The entry point of the application.
